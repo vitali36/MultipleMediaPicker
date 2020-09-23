@@ -45,13 +45,23 @@ public class MediaImageCell: UICollectionViewCell {
     
     public func setSelectedPhotoButton() {
         let bundle = Bundle(for: type(of: self))
-        let selectedPhotoImage = UIImage(named: "selectedPhotoButton", in: bundle, with: nil)
+        var selectedPhotoImage = UIImage()
+        if #available(iOS 13.0, *) {
+            selectedPhotoImage = UIImage(named: "selectedPhotoButton", in: bundle, with: nil)!
+        } else {
+            selectedPhotoImage = UIImage(named: "selectedPhotoButton", in: bundle, compatibleWith: nil)!
+        }
         selectButton.setImage(selectedPhotoImage, for: .normal)
     }
     
     public func setDeselectedPhotoButton() {
         let bundle = Bundle(for: type(of: self))
-        let deselectedPhotoImage = UIImage(named: "deselectedPhotoButton", in: bundle, with: nil)
+        var deselectedPhotoImage = UIImage()
+        if #available(iOS 13.0, *) {
+            deselectedPhotoImage = UIImage(named: "deselectedPhotoButton", in: bundle, with: nil)!
+        } else {
+            deselectedPhotoImage = UIImage(named: "deselectedPhotoButton", in: bundle, compatibleWith: nil)!
+        }
         selectButton.setImage(deselectedPhotoImage, for: .normal)
     }
     
@@ -64,7 +74,12 @@ public class MediaImageCell: UICollectionViewCell {
         selectButton.translatesAutoresizingMaskIntoConstraints = false
         selectButton.addTarget(self, action: #selector(selectPhotoButtonTapped), for: .touchUpInside)
         let bundle = Bundle(for: type(of: self))
-        let deselectedPhotoImage = UIImage(named: "deselectedPhotoButton", in: bundle, with: nil)
+        var deselectedPhotoImage = UIImage()
+        if #available(iOS 13.0, *) {
+            deselectedPhotoImage = UIImage(named: "deselectedPhotoButton", in: bundle, with: nil)!
+        } else {
+            deselectedPhotoImage = UIImage(named: "deselectedPhotoButton", in: bundle, compatibleWith: nil)!
+        }
         selectButton.setImage(deselectedPhotoImage, for: .normal)
 
         addSubview(mediaImageView)

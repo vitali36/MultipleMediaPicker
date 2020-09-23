@@ -36,7 +36,12 @@ open class MediaPickerViewController: UIViewController {
     private lazy var closeButton: UIButton = {
         let closeButton = UIButton()
         let bundle = Bundle(for: type(of: self))
-        let closeImage = UIImage(named: "close", in: bundle, with: nil)
+        var closeImage = UIImage()
+        if #available(iOS 13.0, *) {
+            closeImage = UIImage(named: "close", in: bundle, with: nil)!
+        } else {
+            closeImage = UIImage(named: "close", in: bundle, compatibleWith: nil)!
+        }
         closeButton.setImage(closeImage, for: .normal)
         closeButton.addTarget(self, action: #selector(closeButtonTapped), for: .touchUpInside)
         
