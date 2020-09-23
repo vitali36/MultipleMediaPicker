@@ -198,6 +198,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Vitaliy Bulavkin";
 				TargetAttributes = {
 					FEF86B6A251A4E0D001A553A = {
 						CreatedOnToolsVersion = 12.0;
