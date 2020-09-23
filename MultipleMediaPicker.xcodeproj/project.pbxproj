@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEF86B75251A4E0E001A553A /* MultipleMediaPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF86B6B251A4E0D001A553A /* MultipleMediaPicker.framework */; };
+		FEF86B7A251A4E0E001A553A /* MultipleMediaPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86B79251A4E0E001A553A /* MultipleMediaPickerTests.swift */; };
+		FEF86B7C251A4E0E001A553A /* MultipleMediaPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF86B6E251A4E0D001A553A /* MultipleMediaPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEF86BD3251A5044001A553A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86BD2251A5044001A553A /* AppDelegate.swift */; };
+		FEF86BD5251A5044001A553A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86BD4251A5044001A553A /* SceneDelegate.swift */; };
+		FEF86BD7251A5044001A553A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86BD6251A5044001A553A /* ViewController.swift */; };
+		FEF86BDA251A5044001A553A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF86BD8251A5044001A553A /* Main.storyboard */; };
+		FEF86BDC251A5046001A553A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF86BDB251A5046001A553A /* Assets.xcassets */; };
+		FEF86BDF251A5046001A553A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF86BDD251A5046001A553A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEF86B76251A4E0E001A553A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF86B62251A4E0D001A553A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF86B6A251A4E0D001A553A;
+			remoteInfo = MultipleMediaPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEF86B6B251A4E0D001A553A /* MultipleMediaPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultipleMediaPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF86B6E251A4E0D001A553A /* MultipleMediaPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleMediaPicker.h; sourceTree = "<group>"; };
+		FEF86B6F251A4E0D001A553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF86B74251A4E0E001A553A /* MultipleMediaPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleMediaPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF86B79251A4E0E001A553A /* MultipleMediaPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleMediaPickerTests.swift; sourceTree = "<group>"; };
+		FEF86B7B251A4E0E001A553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF86BD0251A5044001A553A /* MultipleMediaPickerExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleMediaPickerExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF86BD2251A5044001A553A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEF86BD4251A5044001A553A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEF86BD6251A5044001A553A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEF86BD9251A5044001A553A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEF86BDB251A5046001A553A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEF86BDE251A5046001A553A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEF86BE0251A5046001A553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF86B68251A4E0D001A553A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF86B71251A4E0E001A553A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF86B75251A4E0E001A553A /* MultipleMediaPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF86BCD251A5044001A553A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEF86B61251A4E0D001A553A = {
+			isa = PBXGroup;
+			children = (
+				FEF86B6D251A4E0D001A553A /* MultipleMediaPicker */,
+				FEF86B78251A4E0E001A553A /* MultipleMediaPickerTests */,
+				FEF86BD1251A5044001A553A /* MultipleMediaPickerExamples */,
+				FEF86B6C251A4E0D001A553A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF86B6C251A4E0D001A553A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86B6B251A4E0D001A553A /* MultipleMediaPicker.framework */,
+				FEF86B74251A4E0E001A553A /* MultipleMediaPickerTests.xctest */,
+				FEF86BD0251A5044001A553A /* MultipleMediaPickerExamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF86B6D251A4E0D001A553A /* MultipleMediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86B6E251A4E0D001A553A /* MultipleMediaPicker.h */,
+				FEF86B6F251A4E0D001A553A /* Info.plist */,
+			);
+			path = MultipleMediaPicker;
+			sourceTree = "<group>";
+		};
+		FEF86B78251A4E0E001A553A /* MultipleMediaPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86B79251A4E0E001A553A /* MultipleMediaPickerTests.swift */,
+				FEF86B7B251A4E0E001A553A /* Info.plist */,
+			);
+			path = MultipleMediaPickerTests;
+			sourceTree = "<group>";
+		};
+		FEF86BD1251A5044001A553A /* MultipleMediaPickerExamples */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86BD2251A5044001A553A /* AppDelegate.swift */,
+				FEF86BD4251A5044001A553A /* SceneDelegate.swift */,
+				FEF86BD6251A5044001A553A /* ViewController.swift */,
+				FEF86BD8251A5044001A553A /* Main.storyboard */,
+				FEF86BDB251A5046001A553A /* Assets.xcassets */,
+				FEF86BDD251A5046001A553A /* LaunchScreen.storyboard */,
+				FEF86BE0251A5046001A553A /* Info.plist */,
+			);
+			path = MultipleMediaPickerExamples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FEF86B66251A4E0D001A553A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF86B7C251A4E0E001A553A /* MultipleMediaPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FEF86B6A251A4E0D001A553A /* MultipleMediaPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF86B7F251A4E0E001A553A /* Build configuration list for PBXNativeTarget "MultipleMediaPicker" */;
+			buildPhases = (
+				FEF86B66251A4E0D001A553A /* Headers */,
+				FEF86B67251A4E0D001A553A /* Sources */,
+				FEF86B68251A4E0D001A553A /* Frameworks */,
+				FEF86B69251A4E0D001A553A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleMediaPicker;
+			productName = MultipleMediaPicker;
+			productReference = FEF86B6B251A4E0D001A553A /* MultipleMediaPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEF86B73251A4E0E001A553A /* MultipleMediaPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF86B82251A4E0E001A553A /* Build configuration list for PBXNativeTarget "MultipleMediaPickerTests" */;
+			buildPhases = (
+				FEF86B70251A4E0E001A553A /* Sources */,
+				FEF86B71251A4E0E001A553A /* Frameworks */,
+				FEF86B72251A4E0E001A553A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF86B77251A4E0E001A553A /* PBXTargetDependency */,
+			);
+			name = MultipleMediaPickerTests;
+			productName = MultipleMediaPickerTests;
+			productReference = FEF86B74251A4E0E001A553A /* MultipleMediaPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEF86BCF251A5044001A553A /* MultipleMediaPickerExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF86BE1251A5046001A553A /* Build configuration list for PBXNativeTarget "MultipleMediaPickerExamples" */;
+			buildPhases = (
+				FEF86BCC251A5044001A553A /* Sources */,
+				FEF86BCD251A5044001A553A /* Frameworks */,
+				FEF86BCE251A5044001A553A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleMediaPickerExamples;
+			productName = MultipleMediaPickerExamples;
+			productReference = FEF86BD0251A5044001A553A /* MultipleMediaPickerExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF86B62251A4E0D001A553A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FEF86B6A251A4E0D001A553A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					FEF86B73251A4E0E001A553A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					FEF86BCF251A5044001A553A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = FEF86B65251A4E0D001A553A /* Build configuration list for PBXProject "MultipleMediaPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEF86B61251A4E0D001A553A;
+			productRefGroup = FEF86B6C251A4E0D001A553A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF86B6A251A4E0D001A553A /* MultipleMediaPicker */,
+				FEF86B73251A4E0E001A553A /* MultipleMediaPickerTests */,
+				FEF86BCF251A5044001A553A /* MultipleMediaPickerExamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF86B69251A4E0D001A553A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF86B72251A4E0E001A553A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF86BCE251A5044001A553A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF86BDF251A5046001A553A /* LaunchScreen.storyboard in Resources */,
+				FEF86BDC251A5046001A553A /* Assets.xcassets in Resources */,
+				FEF86BDA251A5044001A553A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF86B67251A4E0D001A553A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF86B70251A4E0E001A553A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF86B7A251A4E0E001A553A /* MultipleMediaPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF86BCC251A5044001A553A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF86BD7251A5044001A553A /* ViewController.swift in Sources */,
+				FEF86BD3251A5044001A553A /* AppDelegate.swift in Sources */,
+				FEF86BD5251A5044001A553A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEF86B77251A4E0E001A553A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF86B6A251A4E0D001A553A /* MultipleMediaPicker */;
+			targetProxy = FEF86B76251A4E0E001A553A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEF86BD8251A5044001A553A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF86BD9251A5044001A553A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEF86BDD251A5046001A553A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF86BDE251A5046001A553A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEF86B7D251A4E0E001A553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FEF86B7E251A4E0E001A553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEF86B80251A4E0E001A553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BJ3E6N2853;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MultipleMediaPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VitaliyBulavkin.MultipleMediaPicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF86B81251A4E0E001A553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = BJ3E6N2853;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MultipleMediaPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VitaliyBulavkin.MultipleMediaPicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEF86B83251A4E0E001A553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ3E6N2853;
+				INFOPLIST_FILE = MultipleMediaPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VitaliyBulavkin.MultipleMediaPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF86B84251A4E0E001A553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ3E6N2853;
+				INFOPLIST_FILE = MultipleMediaPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VitaliyBulavkin.MultipleMediaPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FEF86BE2251A5046001A553A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ3E6N2853;
+				INFOPLIST_FILE = MultipleMediaPickerExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VitaliyBulavkin.MultipleMediaPickerExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEF86BE3251A5046001A553A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJ3E6N2853;
+				INFOPLIST_FILE = MultipleMediaPickerExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.VitaliyBulavkin.MultipleMediaPickerExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF86B65251A4E0D001A553A /* Build configuration list for PBXProject "MultipleMediaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF86B7D251A4E0E001A553A /* Debug */,
+				FEF86B7E251A4E0E001A553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF86B7F251A4E0E001A553A /* Build configuration list for PBXNativeTarget "MultipleMediaPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF86B80251A4E0E001A553A /* Debug */,
+				FEF86B81251A4E0E001A553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF86B82251A4E0E001A553A /* Build configuration list for PBXNativeTarget "MultipleMediaPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF86B83251A4E0E001A553A /* Debug */,
+				FEF86B84251A4E0E001A553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF86BE1251A5046001A553A /* Build configuration list for PBXNativeTarget "MultipleMediaPickerExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF86BE2251A5046001A553A /* Debug */,
+				FEF86BE3251A5046001A553A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEF86B62251A4E0D001A553A /* Project object */;
+}
