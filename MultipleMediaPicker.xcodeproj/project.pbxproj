@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE709E54251B500F00E4F341 /* MediaPickerViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE709E53251B500F00E4F341 /* MediaPickerViewControllerDelegate.swift */; };
 		FEF86B75251A4E0E001A553A /* MultipleMediaPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF86B6B251A4E0D001A553A /* MultipleMediaPicker.framework */; };
 		FEF86B7A251A4E0E001A553A /* MultipleMediaPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86B79251A4E0E001A553A /* MultipleMediaPickerTests.swift */; };
 		FEF86B7C251A4E0E001A553A /* MultipleMediaPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF86B6E251A4E0D001A553A /* MultipleMediaPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -16,6 +17,29 @@
 		FEF86BDA251A5044001A553A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF86BD8251A5044001A553A /* Main.storyboard */; };
 		FEF86BDC251A5046001A553A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF86BDB251A5046001A553A /* Assets.xcassets */; };
 		FEF86BDF251A5046001A553A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF86BDD251A5046001A553A /* LaunchScreen.storyboard */; };
+		FEF86C13251B3307001A553A /* MediaPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF86BF6251B3306001A553A /* MediaPickerCell.xib */; };
+		FEF86C14251B3307001A553A /* MediaPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86BF7251B3306001A553A /* MediaPickerCell.swift */; };
+		FEF86C15251B3307001A553A /* MediaPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86BF8251B3306001A553A /* MediaPickerViewController.swift */; };
+		FEF86C16251B3307001A553A /* LoadMediaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF86BFA251B3306001A553A /* LoadMediaView.xib */; };
+		FEF86C17251B3307001A553A /* LoadMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86BFB251B3306001A553A /* LoadMediaView.swift */; };
+		FEF86C18251B3307001A553A /* MediaImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86BFE251B3306001A553A /* MediaImageCell.swift */; };
+		FEF86C19251B3307001A553A /* MediaImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86BFF251B3306001A553A /* MediaImageViewerViewController.swift */; };
+		FEF86C1A251B3307001A553A /* MediaImageViewerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C00251B3306001A553A /* MediaImageViewerType.swift */; };
+		FEF86C1B251B3307001A553A /* MediaItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF86C03251B3306001A553A /* MediaItemCell.xib */; };
+		FEF86C1C251B3307001A553A /* MediaItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C04251B3306001A553A /* MediaItemCell.swift */; };
+		FEF86C1D251B3307001A553A /* MediaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C05251B3306001A553A /* MediaListViewController.swift */; };
+		FEF86C1E251B3307001A553A /* MediaImageViewerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C07251B3306001A553A /* MediaImageViewerDelegate.swift */; };
+		FEF86C1F251B3307001A553A /* MediaListViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C08251B3306001A553A /* MediaListViewControllerDelegate.swift */; };
+		FEF86C20251B3307001A553A /* CenterCarouselLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C0A251B3307001A553A /* CenterCarouselLayout.swift */; };
+		FEF86C21251B3307001A553A /* MediaPickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF86C0C251B3307001A553A /* MediaPickerAssets.xcassets */; };
+		FEF86C22251B3307001A553A /* AssetsMediaPickerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C0E251B3307001A553A /* AssetsMediaPickerService.swift */; };
+		FEF86C23251B3307001A553A /* AssetsMediaPickerServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C0F251B3307001A553A /* AssetsMediaPickerServicing.swift */; };
+		FEF86C24251B3307001A553A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C11251B3307001A553A /* UIView+Extensions.swift */; };
+		FEF86C25251B3307001A553A /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C12251B3307001A553A /* UICollectionView+Extensions.swift */; };
+		FEF86C38251B3781001A553A /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C37251B3781001A553A /* UIViewController+Ext.swift */; };
+		FEF86C3D251B3993001A553A /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C3C251B3993001A553A /* Array+Ext.swift */; };
+		FEF86C42251B430E001A553A /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C41251B430E001A553A /* NibLoadableView.swift */; };
+		FEF86C47251B4338001A553A /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF86C46251B4338001A553A /* ReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE709E53251B500F00E4F341 /* MediaPickerViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPickerViewControllerDelegate.swift; sourceTree = "<group>"; };
 		FEF86B6B251A4E0D001A553A /* MultipleMediaPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MultipleMediaPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF86B6E251A4E0D001A553A /* MultipleMediaPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleMediaPicker.h; sourceTree = "<group>"; };
 		FEF86B6F251A4E0D001A553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +68,29 @@
 		FEF86BDB251A5046001A553A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEF86BDE251A5046001A553A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEF86BE0251A5046001A553A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF86BF6251B3306001A553A /* MediaPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaPickerCell.xib; sourceTree = "<group>"; };
+		FEF86BF7251B3306001A553A /* MediaPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerCell.swift; sourceTree = "<group>"; };
+		FEF86BF8251B3306001A553A /* MediaPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaPickerViewController.swift; sourceTree = "<group>"; };
+		FEF86BFA251B3306001A553A /* LoadMediaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadMediaView.xib; sourceTree = "<group>"; };
+		FEF86BFB251B3306001A553A /* LoadMediaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadMediaView.swift; sourceTree = "<group>"; };
+		FEF86BFE251B3306001A553A /* MediaImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaImageCell.swift; sourceTree = "<group>"; };
+		FEF86BFF251B3306001A553A /* MediaImageViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaImageViewerViewController.swift; sourceTree = "<group>"; };
+		FEF86C00251B3306001A553A /* MediaImageViewerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaImageViewerType.swift; sourceTree = "<group>"; };
+		FEF86C03251B3306001A553A /* MediaItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaItemCell.xib; sourceTree = "<group>"; };
+		FEF86C04251B3306001A553A /* MediaItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaItemCell.swift; sourceTree = "<group>"; };
+		FEF86C05251B3306001A553A /* MediaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaListViewController.swift; sourceTree = "<group>"; };
+		FEF86C07251B3306001A553A /* MediaImageViewerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaImageViewerDelegate.swift; sourceTree = "<group>"; };
+		FEF86C08251B3306001A553A /* MediaListViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaListViewControllerDelegate.swift; sourceTree = "<group>"; };
+		FEF86C0A251B3307001A553A /* CenterCarouselLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterCarouselLayout.swift; sourceTree = "<group>"; };
+		FEF86C0C251B3307001A553A /* MediaPickerAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MediaPickerAssets.xcassets; sourceTree = "<group>"; };
+		FEF86C0E251B3307001A553A /* AssetsMediaPickerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsMediaPickerService.swift; sourceTree = "<group>"; };
+		FEF86C0F251B3307001A553A /* AssetsMediaPickerServicing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetsMediaPickerServicing.swift; sourceTree = "<group>"; };
+		FEF86C11251B3307001A553A /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		FEF86C12251B3307001A553A /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		FEF86C37251B3781001A553A /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		FEF86C3C251B3993001A553A /* Array+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Ext.swift"; sourceTree = "<group>"; };
+		FEF86C41251B430E001A553A /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		FEF86C46251B4338001A553A /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +119,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE709E52251B4FF400E4F341 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FE709E53251B500F00E4F341 /* MediaPickerViewControllerDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		FEF86B61251A4E0D001A553A = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +134,7 @@
 				FEF86B78251A4E0E001A553A /* MultipleMediaPickerTests */,
 				FEF86BD1251A5044001A553A /* MultipleMediaPickerExamples */,
 				FEF86B6C251A4E0D001A553A /* Products */,
+				FEF86C4B251B47AB001A553A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +151,10 @@
 		FEF86B6D251A4E0D001A553A /* MultipleMediaPicker */ = {
 			isa = PBXGroup;
 			children = (
+				FEF86BF3251B3306001A553A /* View */,
+				FEF86C0D251B3307001A553A /* AssetsMediaPickerService */,
+				FEF86C10251B3307001A553A /* Helpers */,
+				FEF86C0B251B3307001A553A /* Resources */,
 				FEF86B6E251A4E0D001A553A /* MultipleMediaPicker.h */,
 				FEF86B6F251A4E0D001A553A /* Info.plist */,
 			);
@@ -121,6 +182,137 @@
 				FEF86BE0251A5046001A553A /* Info.plist */,
 			);
 			path = MultipleMediaPickerExamples;
+			sourceTree = "<group>";
+		};
+		FEF86BF3251B3306001A553A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86BF4251B3306001A553A /* MediaPickerViewController */,
+				FEF86C01251B3306001A553A /* MediaListViewController */,
+				FEF86BFC251B3306001A553A /* MediaImageViewerViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FEF86BF4251B3306001A553A /* MediaPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FE709E52251B4FF400E4F341 /* Delegates */,
+				FEF86BF5251B3306001A553A /* Cells */,
+				FEF86BF8251B3306001A553A /* MediaPickerViewController.swift */,
+				FEF86BF9251B3306001A553A /* Views */,
+			);
+			path = MediaPickerViewController;
+			sourceTree = "<group>";
+		};
+		FEF86BF5251B3306001A553A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86BF6251B3306001A553A /* MediaPickerCell.xib */,
+				FEF86BF7251B3306001A553A /* MediaPickerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FEF86BF9251B3306001A553A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86BFA251B3306001A553A /* LoadMediaView.xib */,
+				FEF86BFB251B3306001A553A /* LoadMediaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEF86BFC251B3306001A553A /* MediaImageViewerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86C09251B3307001A553A /* CenterCarouselLayout */,
+				FEF86BFD251B3306001A553A /* Cells */,
+				FEF86BFF251B3306001A553A /* MediaImageViewerViewController.swift */,
+				FEF86C00251B3306001A553A /* MediaImageViewerType.swift */,
+			);
+			path = MediaImageViewerViewController;
+			sourceTree = "<group>";
+		};
+		FEF86BFD251B3306001A553A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86BFE251B3306001A553A /* MediaImageCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FEF86C01251B3306001A553A /* MediaListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86C06251B3306001A553A /* Delegates */,
+				FEF86C02251B3306001A553A /* Cells */,
+				FEF86C05251B3306001A553A /* MediaListViewController.swift */,
+			);
+			path = MediaListViewController;
+			sourceTree = "<group>";
+		};
+		FEF86C02251B3306001A553A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86C03251B3306001A553A /* MediaItemCell.xib */,
+				FEF86C04251B3306001A553A /* MediaItemCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FEF86C06251B3306001A553A /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86C07251B3306001A553A /* MediaImageViewerDelegate.swift */,
+				FEF86C08251B3306001A553A /* MediaListViewControllerDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		FEF86C09251B3307001A553A /* CenterCarouselLayout */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86C0A251B3307001A553A /* CenterCarouselLayout.swift */,
+			);
+			path = CenterCarouselLayout;
+			sourceTree = "<group>";
+		};
+		FEF86C0B251B3307001A553A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86C0C251B3307001A553A /* MediaPickerAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FEF86C0D251B3307001A553A /* AssetsMediaPickerService */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86C0F251B3307001A553A /* AssetsMediaPickerServicing.swift */,
+				FEF86C0E251B3307001A553A /* AssetsMediaPickerService.swift */,
+			);
+			path = AssetsMediaPickerService;
+			sourceTree = "<group>";
+		};
+		FEF86C10251B3307001A553A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FEF86C11251B3307001A553A /* UIView+Extensions.swift */,
+				FEF86C12251B3307001A553A /* UICollectionView+Extensions.swift */,
+				FEF86C37251B3781001A553A /* UIViewController+Ext.swift */,
+				FEF86C3C251B3993001A553A /* Array+Ext.swift */,
+				FEF86C41251B430E001A553A /* NibLoadableView.swift */,
+				FEF86C46251B4338001A553A /* ReusableView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FEF86C4B251B47AB001A553A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +428,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF86C13251B3307001A553A /* MediaPickerCell.xib in Resources */,
+				FEF86C16251B3307001A553A /* LoadMediaView.xib in Resources */,
+				FEF86C1B251B3307001A553A /* MediaItemCell.xib in Resources */,
+				FEF86C21251B3307001A553A /* MediaPickerAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +459,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF86C24251B3307001A553A /* UIView+Extensions.swift in Sources */,
+				FEF86C17251B3307001A553A /* LoadMediaView.swift in Sources */,
+				FEF86C25251B3307001A553A /* UICollectionView+Extensions.swift in Sources */,
+				FEF86C1E251B3307001A553A /* MediaImageViewerDelegate.swift in Sources */,
+				FEF86C23251B3307001A553A /* AssetsMediaPickerServicing.swift in Sources */,
+				FEF86C14251B3307001A553A /* MediaPickerCell.swift in Sources */,
+				FE709E54251B500F00E4F341 /* MediaPickerViewControllerDelegate.swift in Sources */,
+				FEF86C1A251B3307001A553A /* MediaImageViewerType.swift in Sources */,
+				FEF86C1D251B3307001A553A /* MediaListViewController.swift in Sources */,
+				FEF86C1C251B3307001A553A /* MediaItemCell.swift in Sources */,
+				FEF86C18251B3307001A553A /* MediaImageCell.swift in Sources */,
+				FEF86C20251B3307001A553A /* CenterCarouselLayout.swift in Sources */,
+				FEF86C3D251B3993001A553A /* Array+Ext.swift in Sources */,
+				FEF86C42251B430E001A553A /* NibLoadableView.swift in Sources */,
+				FEF86C15251B3307001A553A /* MediaPickerViewController.swift in Sources */,
+				FEF86C47251B4338001A553A /* ReusableView.swift in Sources */,
+				FEF86C1F251B3307001A553A /* MediaListViewControllerDelegate.swift in Sources */,
+				FEF86C19251B3307001A553A /* MediaImageViewerViewController.swift in Sources */,
+				FEF86C38251B3781001A553A /* UIViewController+Ext.swift in Sources */,
+				FEF86C22251B3307001A553A /* AssetsMediaPickerService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +703,7 @@
 		FEF86B83251A4E0E001A553A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJ3E6N2853;
 				INFOPLIST_FILE = MultipleMediaPickerTests/Info.plist;
@@ -505,6 +722,7 @@
 		FEF86B84251A4E0E001A553A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BJ3E6N2853;
 				INFOPLIST_FILE = MultipleMediaPickerTests/Info.plist;

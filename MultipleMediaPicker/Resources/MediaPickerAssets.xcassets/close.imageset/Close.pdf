@@ -1,0 +1,119 @@
+%PDF-1.7
+
+1 0 obj
+  << /Length 2 0 R
+     /FunctionType 4
+     /Domain [ 0.000000 1.000000 ]
+     /Range [ 0.000000 1.000000 0.000000 1.000000 0.000000 1.000000 ]
+  >>
+stream
+{  0.283507 exch 0.289670 exch 0.295833 exch dup 0.000000 gt { exch pop exch pop exch pop dup 0.000000 sub -0.154095 mul 0.283507 add exch dup 0.000000 sub -0.152415 mul 0.289670 add exch dup 0.000000 sub -0.135049 mul 0.295833 add exch } if dup 1.000000 gt { exch pop exch pop exch pop 0.129412 exch 0.137255 exch 0.160784 exch } if pop }
+endstream
+endobj
+
+2 0 obj
+  339
+endobj
+
+3 0 obj
+  << /Pattern << /P1 << /Matrix [ 8.364058 -13.955264 13.955264 8.364058 -4.184146 14.017778 ]
+                        /Shading << /Coords [ 0.000000 0.000000 1.000000 0.000000 ]
+                                    /Extend [ true true ]
+                                    /Domain [ 0.000000 1.000000 ]
+                                    /ShadingType 2
+                                    /ColorSpace /DeviceRGB
+                                    /Function 1 0 R
+                                 >>
+                        /PatternType 2
+                        /Type /Pattern
+                     >> >> >>
+endobj
+
+4 0 obj
+  << /Length 5 0 R >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+1.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 cm
+1.000000 1.000000 1.000000 scn
+32.000000 16.000000 m
+32.000000 7.163445 24.836555 0.000000 16.000000 0.000000 c
+7.163444 0.000000 0.000000 7.163445 0.000000 16.000000 c
+0.000000 24.836555 7.163444 32.000000 16.000000 32.000000 c
+24.836555 32.000000 32.000000 24.836555 32.000000 16.000000 c
+h
+f
+n
+Q
+q
+1.000000 0.000000 -0.000000 1.000000 10.000000 9.271973 cm
+/Pattern cs
+/P1 scn
+12.020814 12.728027 m
+12.727921 12.020920 l
+7.071074 6.364074 l
+12.727937 0.707211 l
+12.020830 0.000105 l
+6.363968 5.656967 l
+0.707105 0.000105 l
+0.000000 0.707211 l
+5.656861 6.364074 l
+0.000015 12.020920 l
+0.707122 12.728027 l
+6.363968 7.071181 l
+12.020814 12.728027 l
+h
+f*
+n
+Q
+
+endstream
+endobj
+
+5 0 obj
+  747
+endobj
+
+6 0 obj
+  << /Annots []
+     /Type /Page
+     /MediaBox [ 0.000000 0.000000 32.000000 32.000000 ]
+     /Resources 3 0 R
+     /Contents 4 0 R
+     /Parent 7 0 R
+  >>
+endobj
+
+7 0 obj
+  << /Kids [ 6 0 R ]
+     /Count 1
+     /Type /Pages
+  >>
+endobj
+
+8 0 obj
+  << /Type /Catalog
+     /Pages 7 0 R
+  >>
+endobj
+
+xref
+0 9
+0000000000 65535 f
+0000000010 00000 n
+0000000533 00000 n
+0000000555 00000 n
+0000001180 00000 n
+0000001983 00000 n
+0000002005 00000 n
+0000002178 00000 n
+0000002252 00000 n
+trailer
+<< /ID [ (some) (id) ]
+   /Root 8 0 R
+   /Size 9
+>>
+startxref
+2311
+%%EOF
