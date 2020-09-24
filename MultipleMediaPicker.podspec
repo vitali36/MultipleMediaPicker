@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "MultipleMediaPicker"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "MultipleMediaPicker library."
 
   spec.description  = <<-DESC
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
 
 
   spec.source       = { :git => "https://github.com/vitali36/MultipleMediaPicker.git", :tag => "#{spec.version}" }
-  spec.resources = 'MultipleMediaPicker/**/*.{xcassets}'
+  spec.resources = 'MultipleMediaPicker/**/*.{xib,xcassets}'
 
 
   spec.source_files  = "MultipleMediaPicker/**/*.{h,m,swift}"
