@@ -21,10 +21,8 @@ Pod::Spec.new do |spec|
  spec.ios.deployment_target = "11.0"
  spec.swift_version = "4.2"
 
-
   spec.source       = { :git => "https://github.com/vitali36/MultipleMediaPicker.git", :tag => "#{spec.version}" }
-  spec.resources = 'MultipleMediaPicker/**/*.{xib,xcassets}'
-
+  spec.resource = "MultipleMediaPicker/**/*.{xcassets, png,bundle,xib,nib}"
 
   spec.source_files  = "MultipleMediaPicker/**/*.{h,m,swift}"
 
